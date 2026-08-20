@@ -9,5 +9,13 @@
   "start_url": "/",
   "theme_color": "#2196f3",
   "description": "AI Student Assistant for learning, study notes, quizzes, and exam preparation.",
-  "lang": "en"
+  "lang": "en",
+  "icons": [
+  {
+    "src": "/icon-512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "any"
+  }
+  ]
 }
