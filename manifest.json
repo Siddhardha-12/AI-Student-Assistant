@@ -1,0 +1,13 @@
+{
+  "background_color": "#f5f7fa",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "AI Student Assistant",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "AI Student",
+  "start_url": "/",
+  "theme_color": "#2196f3",
+  "description": "AI Student Assistant for learning, study notes, quizzes, and exam preparation.",
+  "lang": "en"
+}
