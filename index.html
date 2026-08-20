@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Student Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🎓 AI Student Assistant</h1>
+        <p>Learn smarter. Study faster.</p>
+
+        <textarea id="question" placeholder="Ask your study question..."></textarea>
+        <p class="shortcut-hint">💡 Press Ctrl + Enter to ask AI</p>
+        <p id="charCount">0 characters</p>
+
+        <button onclick="askAI()">Ask AI</button>
+        <button onclick="generateNotes()">📚 Generate Study Notes</button>
+        <button onclick="generateQuiz()">📝 Generate Quiz</button>
+        <button onclick="examMode()">🎯 Exam Mode</button>
+        <button onclick="clearAll()">🧹 Clear</button>
+        <button onclick="copyAnswer()">📋 Copy Answer</button>
+
+
+        <div id="answer">
+            Your AI answer will appear here.
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
